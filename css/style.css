@@ -1,0 +1,148 @@
+.fondo{
+    background-color:cadetblue;
+    text-align:center;
+}
+
+/*Formulario*/
+.formulario{
+    width:400px;
+    margin:auto;
+    background-color:darkcyan;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+@media screen and (max-width:410px){
+.formulario{
+    width:315px;
+    margin:auto;
+    background-color:darkcyan;
+    padding:20px;
+    margin-bottom:20px;
+}
+}
+
+@media screen and (max-width:330px){
+    .formulario{
+    padding:10px;
+}
+
+.inputs{
+    width:310px;
+}
+}
+
+.seba{
+    font-size: arial, helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+form{
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 240px;
+    align-items:center;
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width:100%;
+}
+
+h2{
+    color: #283629;
+    font-size: 35px;
+
+}
+
+label {
+    color: #283629;
+    font-size: 15px;
+    font-weight: 600px;
+    margin-bottom: 15px;
+
+}
+
+.input, textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #edfff0;
+    border: 2px solid #f0faf1;
+    color: #283629;
+}
+/*Fin form*/
+
+/*Card*/
+#pequeno{
+    height:250px;
+}
+
+#centrado{
+    text-align:center;
+}
+
+#justificado{
+    text-align:justify;
+}
+
+#derecha{
+    text-align:right;
+}
+
+
+.card{
+    height:420px;
+}
+
+
+@media screen and (max-width:991px){
+    .card{
+    height:450px;
+    width:300px;
+}
+.mb-4{
+    margin:40px;
+}
+}
+
+
+@media screen and (max-width:767px){
+.mb-4{
+    margin:auto;
+}
+.card{
+    height:500px;
+    width:520px;
+    margin:auto;
+}
+
+
+#pequeno{
+    height:350px;
+}
+}
+
+@media screen and (max-width:543px){
+.card{
+    height:400px;
+    width:220px;
+    margin:auto;
+}
+
+#pequeno{
+    height:200px;
+}
+}
+
+.navbar-brand{
+      color:black;
+}
