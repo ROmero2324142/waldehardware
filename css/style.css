@@ -146,3 +146,8 @@ label {
 .navbar-brand{
       color:black;
 }
+
+.w{
+    width:100px;
+    border-radius:10px;
+}
