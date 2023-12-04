@@ -68,21 +68,28 @@
         <h2>contacto</h2>
         <div class="input-group" id="seba">
             <label for="name">Nombre</label>
-            <input type="text" name="name" id="name" class="inputs" placeholder="Nombre">
+            <input type="text" name="name" id="name" class="inputs" placeholder="Nombre" required>
             <label for="phone">Telefono</label>
-            <input type="tel" name="phone" id="phone"  class="inputs" placeholder="Telefono">
+            <input type="number" name="phone" id="phone"  class="inputs" placeholder="Telefono" required>
             <label for="email">Email</label>
-            <input type="email" name="email" id="email"  class="inputs" placeholder="Email">
+            <input type="email" name="email" id="email"  class="inputs" placeholder="Email" required>
     
             <textarea id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
             <input class="btn" type="submit" value="Enviar">
             
         </div>
     </form>
+<div id= "img">
+    <h2>Contactos</h2>
+    <div class=romero>
+        <img src= "img/-whatsapp.avif" class="w">
+        <p>+54 9 345 304-8423 </p>
+        <img src= "img/direccion.png" class="w">
+        <p>Estrada 1023</p>
+        <img src= "img/concordia.png" class="w">
+        <p>Concordia</p>
+</div>
 
-<footer>
-    <h1>TEL:54 9 345 304-8423  ------ DIR:Estrada 1023 ------ LOC:Concordia</h1>
-</footer>
 
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
